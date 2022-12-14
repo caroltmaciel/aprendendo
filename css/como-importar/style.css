@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+h1 {
+    color: blue;
+    font-family: 'Neonderthaw', cursive;
+}
+
+strong {
+    color: red;
+}

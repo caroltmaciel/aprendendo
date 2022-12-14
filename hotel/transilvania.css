@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+.conteudo {
+    background-color: #ddd;
+    padding: 16px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(145, 39, 101);
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.myDiv {
+    border: 5px outset rgb(0, 0, 0);
+    background-color: rgb(229, 238, 241);
+    text-align: center;
+}
+
+.hotel_foto_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel_foto {
+    width: fit-content;
+    height: 400px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+.hotel_titulo {
+    font-size: 36px;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 0 16px 8px 16px;
+}
+
+.quarto_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    margin: 12px 0 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.quarto_titulo {
+    font-size: 36px;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.quarto_descricao {
+    font-size: 20px;
+    color: rgb(54, 53, 53);
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    margin: 0 24px 8px 24px;
+}
+
+.quarto_fotos_container {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: center;
+}
+
+.quarto_foto {
+    width: 400px;
+    height: 400px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+.contato {
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.contato_redes_sociais {
+    width: 30%;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.redes_sociais_icone {
+    width: 64px;
+    height: 64px;
+}
+
+.contato_formulario {
+    width: 70%;
+    margin-left: 4px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.contato_campo {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+    height: 24px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+
+.contato_mensagem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+    height: 80px;
+    width: 550px;
+}
+
+.contato_label {
+    display: block;
+    color: #444;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
