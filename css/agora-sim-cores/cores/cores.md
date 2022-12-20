@@ -8,7 +8,7 @@
 * background-color (para caixas)
 * color (para textos)
 * border-color (para-caixas)
-
+# outros...
 
 ## Valores
 
@@ -52,6 +52,19 @@ element{
     color: hsl (30.0 100% 50% / 60%);
     color: hsla (30.2 100% 50% / 60%);
     
-
-
+    /* Global Values */
+    color: inherit;
+    color: initial;
+    color: unset;
+    
 }
+```
+
+## Referência
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+
+## Dica para conversão 
+
+https://convertacolor.com
