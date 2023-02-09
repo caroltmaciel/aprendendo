@@ -1,29 +1,14 @@
-// criar um aplicativo de frases motivacionais
+//function expression
+// function anonymous
 
-// declaration - declaração da função
-// function statement
-function createPhrases() {
-    console.log('Estudar é muito bom')
-    console.log('Paciência e persistência')
-    console.log('Revisão é mãe do aprendizado')
+// parâmetros (parameters)
+const sum = function(number1, number2) {
+    console.log(number1 + number2)
 }
 
-// executar a função
-// rodar, chamar, invocar
-// execute, run, call, invoke
-// se chamar e não declarar a função dá erro
-createPhrases()
-createPhrases()
-createPhrases()
-createPhrases()
+let number1 = 34
+let number2 = 25
 
-console.log('fim do programa')
-
-
-/* pra que serviu a função? para:
- agrupamento de códigos,
- reutilização do código quantas vezes quiser,
- dar significado,
- colocar um nome que dará significado 
- a um bloco de código 
- */
+sum(2, 3) // arguments - argumentos
+sum(4, 5)
+sum(56, 300986743)
