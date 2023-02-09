@@ -42,7 +42,11 @@ console.log(animals[1].name)
 
 // 1. Declare uma variável de nome weight
 
+let weight
+
 // 2. Que tipo de dado é a variável acima?
+console.log(typeof weight)
+    // resultado: undefined
 
 /*
     3. Declare uma variável e atribua valores para cada
@@ -50,8 +54,13 @@ console.log(animals[1].name)
     * name: String
     * age: Number (integer)
     * stars: Number (float)
-    * isSubscribed: Boolean
+    * isSubscribed: true or false (boolean)
 */
+
+let name = "Ana"
+let age = 24
+let stars = 4.8
+let isSubscribed = true
 
 /* 
     4. A variável student abaixo é de que tipo de
@@ -67,11 +76,29 @@ console.log(animals[1].name)
         valores de cada propriedade do objeto
 */
 
+let student = {
+
+    name: "Ana",
+    age: 24,
+    weight: 70.8,
+    isSubscribed: true,
+};
+
+console.log(typeof student)
+
+console.log(student)
+    // resultado: object
+
+console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
+
 /*
-    5. Declare uma varia´vel do tipo Array, de nome
+    5. Declare uma variável do tipo Array, de nome
     students e atribua a ela nenhum valor, ou seja,
     somente o Array vazio
 */
+
+let students = []
+
 
 /* 
     6. Retribua valor para a variável acima, colocando
@@ -80,16 +107,39 @@ console.log(animals[1].name)
     inserir ele no Array)
 */
 
+students = [
+    student
+]
+console.log(students)
+
 /* 
     7. Coloque no console o valor da posição zero do
     Array acima
 */
 
+console.log(students[0])
 
 /*
     8. Crie um novo student e coloque na posição 1 do
     Array students
 */
+
+const john = {
+    name: "John",
+    age: 23,
+    weight: 74.8,
+    isSubscribed: true,
+};
+
+students = [
+    student,
+    john
+]
+
+// outro jeito de fazer: students[1] = john
+console.log(students)
+
+
 
 /*
     9. Sem rodar o código responda qual é a respota do
@@ -99,3 +149,8 @@ console.log(animals[1].name)
     console.log(a)
     var a = 1
 */
+
+// resposta undefined 
+
+console.log(a)
+var a = 1
